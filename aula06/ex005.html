@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            font: normal 20pt Arial;
+        }      
+    </style>
+</head>
+<body>
+    <script>                 
+            var n1 = 1545.5
+            n1.toFixed(2); // casas decimais
+            '1545.50'
+            n1.toFixed(2).replace('.', ',') // troca ponto por vírgula
+            '1545,50'
+            n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) // em Reais
+            'R$ 1.545,50'
+            n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) // em Dolar
+            'US$ 1.545,50'
+            n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}) // em Euro
+            '€ 1.545,50'
+    </script>
+</body>
+</html>
