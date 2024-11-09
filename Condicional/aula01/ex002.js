@@ -9,7 +9,7 @@ if (pais == 'Brasil') {
 }
 */
 
-// Qualquer situalção diferente de:
+// Qualquer situação diferente de:
 var pais = 'França'
 console.log(`Vivendo em ${pais}`)
 if (pais != 'Brasil') {
