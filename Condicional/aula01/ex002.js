@@ -1,5 +1,5 @@
 /*
-// Qualquer situalção igual a:
+// Qualquer situação igual a:
 var pais = 'Brasil'
 console.log(`Vivendo em ${pais}`)
 if (pais == 'Brasil') {
