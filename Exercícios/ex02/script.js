@@ -4,19 +4,22 @@ function carregar() {
     var data = new Date()
     // var hora = data.getHours()
 
-    var hora = 18
+    var hora = 7
 
     msg.innerHTML = `Agora são ${hora} horas.`
 
     if (hora >= 0 && hora < 12) {
         // Bom Dia!!
         img.src = 'img/fotomanha.png'
+        document.body.style.background = '#e2cd9f'
     } else if (hora >= 12 && hora < 18) {
         // Boa Tarde!
         img.src = 'img/fototarde.png'
+        document.body.style.background = '#b9846f'
     } else {
         // Boa Noite!
         img.src = 'img/fotonoite.png'
+        document.body.style.background = '#515154'
     }
 }
 
