@@ -11,8 +11,10 @@ let num = [5, 8, 2, 9, 3]
 
 
 // Leitura de um vetor
-/*
-let num = [5, 8, 2, 9, 3]
 
-console.log(num)
-*/
+/*
+
+let num = [5, 8, 2, 9, 3]
+    console.log(num)
+
+    */
