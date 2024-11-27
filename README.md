@@ -5,4 +5,4 @@
 * Módulo 03: Document Object Model
 * Módulo 04: Condições em JavaScript
 * Módulo 05: Repetições (laços) em JavaScript
-* Módulo 06: Avançando nos estudos em JavaScript
+* Módulo 06: Avançando nos estudos em JavaScript (Array e Funções)
