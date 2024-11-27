@@ -1,7 +1,7 @@
 
 // Percurso Tradicional
 
-let valores = [8, 1, 7, 4, 2, 9] // forma de mostrar 
+let valores = [8, 1, 7, 4, 2, 9] // forma de mostrar vetor
 valores.sort()
 console.log(valores)
 
@@ -10,7 +10,7 @@ console.log(valores)
 
 
 for(let pos=0; pos < valores.length; pos++) {
-    console.log(`A posição ${pos} tem o valor ${valores[pos]}`) // forma de mostrar com formatação
+    console.log(`A posição ${pos} tem o valor ${valores[pos]}`) // forma de mostrar vetor com formatação
 
 }
 
