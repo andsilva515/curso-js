@@ -3,7 +3,6 @@ let lista = document.querySelector('select#flista')
 let res = document.querySelector('div#res')
 let valores = []
 
-
 function isNumero(n) {
     if(Number(n) >= 1 && Number(n) <= 100) {
         return true
@@ -12,7 +11,6 @@ function isNumero(n) {
     }
 }
 
-
 function inLista(n, l) {
     if(l.indexOf(Number(n)) != -1) {
         return true
@@ -20,7 +18,6 @@ function inLista(n, l) {
         return false
     }
 }
-
 
 function adicionar() {
     if(isNumero(num.value) && !inLista(num.value, valores)) {
@@ -53,6 +50,7 @@ function finalizar() {
             if (valores[pos] < menor)
                 menor = valores[pos]
         }
+
         media = soma / tot        
         res.innerHTML = ''
         res.innerHTML += `<p>Ao todo, temos ${tot} números cadastrados.</p>`
@@ -60,5 +58,6 @@ function finalizar() {
         res.innerHTML += `<p>O menor valor informado foi ${menor}.</p>`
         res.innerHTML += `<p>Somando todos os valores, temos ${soma}.</p>`
         res.innerHTML += `<p>A média dos valores digitados foi ${media}.</p>`
+
     }
 }
